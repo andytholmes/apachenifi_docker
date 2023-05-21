@@ -41,7 +41,7 @@ docker logs nifi-container | grep "Generated"
 
 | Parameter | Value |
 | --- | --- |
-|Database connection URL | jdbc:snowflake://\<account>.snowflakecomputing.com/?db=test&warehouse=test&schema=public |
+|Database connection URL | jdbc\:snowflake://\<account>.snowflakecomputing.com/?db=test&warehouse=test&schema=public |
 |Database Driver location(s) | /opt/nifi/nifi-current/lib/snowflake-jdbc-3.12.5.jar |
 |Database Driver Class Name | net.snowflake.client.jdbc.SnowflakeDriver |
 | Database User | \<user name> |
