@@ -64,3 +64,5 @@ docker logs nifi-container | grep "Generated"
 the above processor configurations should allow a flow to be created that will read from SQL Server and write to Snowflake.
 
 ![Pipline to Snowflake](./images/pipeline%20to%20Snowflake.png)
+
+There is a template added to the **templates** folder that can be imported into NiFi to create the above flow.
